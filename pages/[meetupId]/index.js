@@ -57,6 +57,7 @@ export async function getStaticProps(context) {
   return {
     props: {
       meetupData: modifiedObj,
+      revalidate: 1
     },
   };
 }
